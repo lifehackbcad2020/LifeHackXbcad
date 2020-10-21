@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/yellow"
+    tools:context=".learningNumbers">
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="139dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/apples" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="623dp"
+        android:fontFamily="@font/finger_paint"
+        android:text="HOW MANY APPLES ARE THERE:"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="179dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/orange" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="569dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="There are                                apples"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="571dp"
+        android:hint=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="401dp"
+        android:background="@drawable/apples" />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/next" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/tick" />
+
+</RelativeLayout>

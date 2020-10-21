@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adultsprofile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdditionAndSubtraction"></activity>
+        <activity android:name=".TeacherProfile" />
+        <activity android:name=".ParentProfile" />
+        <activity android:name=".ParentReg" />
+        <activity android:name=".TeacherReg" />
+        <activity android:name=".ChildReg" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".AdultLogin" />
+        <activity android:name=".UserOption" />
+        <activity android:name=".Login" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".ChildProfile" />
+        <activity android:name=".ChildGallery" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Addition" />
+        <activity android:name=".Counting_2" />
+        <activity android:name=".Counting" />
+        <activity android:name=".learningnumbers2" />
+        <activity android:name=".learningNumbers" />
+        <activity android:name=".MathGame1" />
+        <activity android:name=".WelcomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

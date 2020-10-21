@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545245411176",
+    "firebase_url": "https://lifehack-f19e7.firebaseio.com",
+    "project_id": "lifehack-f19e7",
+    "storage_bucket": "lifehack-f19e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545245411176:android:6a076ec9da6fe68ef388dd",
+        "android_client_info": {
+          "package_name": "com.example.adultsprofile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545245411176-vp03mtl0ak2squ4vc90vh0fehag1pc95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adultsprofile",
+            "certificate_hash": "85d1095af19474dce026d38e664ad98f185b6fdc"
+          }
+        },
+        {
+          "client_id": "545245411176-d96cikns0tj6do5o0l344pbdugur6iot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ1UOtZ2nfR_SC4hB_fYjJYtX0yx_1BkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545245411176-d96cikns0tj6do5o0l344pbdugur6iot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

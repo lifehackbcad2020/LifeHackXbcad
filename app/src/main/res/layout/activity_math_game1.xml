@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/numbers_back"
+    tools:context=".MathGame1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="455dp"
+
+
+        android:fontFamily="@font/finger_paint"
+        android:padding="30sp"
+        android:paddingTop="30sp"
+        android:text="Welcome to Number Skills"
+        android:textColor="#B5278D"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/font"
+        android:layout_width="199dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/round_button_numbers"
+        android:fontFamily="@font/finger_paint"
+        android:gravity="center"
+        android:text="Lets Learn Numbers"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="157dp"
+        android:layout_height="98dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="368dp"
+        android:id="@+id/btnAddition"
+        android:layout_marginBottom="242dp"
+        android:background="@drawable/round_button_numbers"
+        android:fontFamily="@font/finger_paint"
+        android:gravity="center"
+        android:text="Lets Count"
+        android:textColor="#403C3C"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="202dp"
+        android:layout_height="98dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/round_button_numbers"
+        android:fontFamily="@font/finger_paint"
+        android:gravity="center"
+        android:id="@+id/btnAddandSubtract"
+        android:text="Lets Add and Subtract"
+        android:textColor="#403C3C"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

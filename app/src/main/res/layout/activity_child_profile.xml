@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child_background"
+
+    tools:context=".ChildProfile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="188dp"
+            android:layout_height="164dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            android:src="@drawable/ic_baseline_account_box_24"></ImageView>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_button">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/ic_baseline_add_a_photo"
+            android:padding="6dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ADD YOUR PICTURE"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/txtFName"
+
+                    android:hint="What is your name ?"
+                    android:textColorHint="#000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+                        android:drawablePadding="20dp"
+                        android:text="First name"></com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:hint="What is your Surname?"
+                    android:id="@+id/txtSName"
+                    android:textColorHint="#000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+                        android:drawablePadding="20dp"
+                        android:text="Surname"></com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:hint="When were you born?"
+                    android:id="@+id/txtDOB"
+                    android:textColorHint="#000">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                        android:drawablePadding="20dp"
+                        android:text="Date of Birth"></com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:hint="What are your parents name?"
+                    android:id="@+id/txtpName"
+                    android:textColorHint="#000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_email_24"
+                        android:drawablePadding="20dp"
+                        android:text="Parent name and surname"></com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="20dp"
+                    android:hint="What is your favourite thing to do?"
+                    android:id="@+id/txtFavThing"
+                    android:textColorHint="#000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_email_24"
+                        android:drawablePadding="20dp"
+                        android:text="Favourite thing"></com.google.android.material.textfield.TextInputEditText>
+                    <Button
+                        android:id="@+id/btnDash"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:background="@drawable/round_button"
+                        android:text="Dashboard"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/btnEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:background="@drawable/round_button"
+                        android:text="Edit"
+                        android:onClick="UpdateData"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".UserOption">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f39c12"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="Which user are you?"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="445dp"
+        android:background="@drawable/round_button"
+        android:text="Teacher"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="326dp"
+        android:background="@drawable/round_button"
+        android:text="Parent"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/btnChild"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="216dp"
+        android:text="Child"
+        android:textColor="#fff"
+        android:background="@drawable/round_button"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+</RelativeLayout>

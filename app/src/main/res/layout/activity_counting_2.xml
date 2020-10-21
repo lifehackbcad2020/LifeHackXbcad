@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    tools:context=".Counting_2">
+
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="345dp"
+        android:background="@drawable/fish" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="661dp"
+        android:fontFamily="@font/finger_paint"
+        android:textColor="#111211"
+        android:text="Lets Count the number of fishes in descending order:"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="123dp"
+        android:layout_height="144dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="489dp"
+        android:background="@drawable/fish" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="546dp"
+        android:hint=""
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="396dp"
+        android:hint=""
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="135dp"
+        android:hint=""
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="247dp"
+        android:hint=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/fish" />
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/fish" />
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/next" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/numberone" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/numbertwo" />
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/numberfour" />
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="513dp"
+        android:background="@drawable/numberthree" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/tick" />
+
+</RelativeLayout>

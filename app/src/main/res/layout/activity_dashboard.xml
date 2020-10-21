@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Dashboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f39c12"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="Here are your learning options:"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/btnProf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Profile"
+                android:weightSum="3" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="Maths"
+            android:weightSum="3" />
+
+        <Button
+            android:id="@+id/btnEng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="English"
+            android:weightSum="3" />
+
+        <Button
+            android:id="@+id/btnLifeSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="Life Skills"
+            android:weightSum="3" />
+
+        <Button
+            android:id="@+id/btnScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="Science" />
+
+        <Button
+            android:id="@+id/btnArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="Art" />
+    </LinearLayout>
+</RelativeLayout>
